@@ -1,0 +1,54 @@
+@media (max-width: 768px) {
+	header {
+		display: none;
+		margin: 0;
+	}
+}
+
+// @media (max-width: 540px) {
+// 	#fpv {
+// 		font-size: 50px;
+// 	}
+// }
+
+// @media (max-width: 580px) {
+// 	#fpv2 {
+// 		font-size: 14px;
+// 	}
+// }
+
+@media (max-width: 540px) {
+	.line-loaded {
+		width: 200px !important;
+	}
+}
+
+@media (max-width: 768px) {
+	.cards {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.first__card {
+		width: 70%;
+		height: 100px;
+	}
+}
+
+@media (max-width: 768px) {
+	.hamburger__container {
+		display: block !important;
+	}
+}
+
+@media (max-width: 768px) {
+	.sidebar__container {
+		display: block !important;
+	}
+}
+
+@media (max-width: 768px) {
+	form {
+		min-width: 70%;
+	}
+}
